@@ -1,9 +1,9 @@
 ---
-title: "blog"
+title: "웹개발 지식"
 layout: archive
-permalink: /blog
+permalink: /webKnowledge
 ---
 
 
-{% assign posts = site.categories.blog %}
+{% assign posts = site.categories.webKnowledge %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

@@ -12,11 +12,25 @@ main:
   #   url: /sitemap/
 
 sidebar-category:
-  - title: "카테고리"
+  - title: "프로그래밍"
     children:
-      - title: "블로그"
-        url: "/blog"
-      - title: "카테고리B"
-        url:  "/CategoryB"
-      - title: "카테고리C"
-        url:  "/CategoryC"
+      - title: "HTML, CSS"
+        url: "/html&css"
+      - title: "JavaScript"
+        url:  "/JavaScript"
+      - title: "React"
+        url:  "/React"
+      - title: "Vue"
+        url:  "/Vue" 
+  - title: "알고리즘 & 자료구조"
+    children:
+        - title: "알고리즘 & 자료구조"
+          url: "/algorithm&dataStructure"
+        - title: "코딩테스트"
+          url:  "/codingTest"
+        - title: "파이썬 라이브러리 노트"
+          url:  "/pythonNote"
+  - title: "웹개발 지식"
+    url: "/webKnowledge"
+  - title: "ETC"
+    url: "/etc"
