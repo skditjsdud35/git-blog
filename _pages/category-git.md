@@ -1,9 +1,9 @@
 ---
-title: "웹개발 지식"
+title: "Git & Github"
 layout: archive
-permalink: /webKnowledge
+permalink: /git
 ---
 
 
-{% assign posts = site.categories.webKnowledge %}
+{% assign posts = site.categories.git %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
